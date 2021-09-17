@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>National and Local Weather Radar</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="top-header">
+          <div class="logo">
+            <img src="assets/logo.png" id="hover-blue" alt="" />
+          </div>
+          <div class="search">
+            <input type="search" placeholder="Search City or Zip Code" />
+            <button><i class="fa fa-search"></i></button>
+          </div>
+          <div class="top-right">
+            <div class="nav">
+              <i class="fa fa-globe" aria-hidden="true"></i>
+              <p>US | °F</p>
+              <img src="assets/down-arrow.png" class="arrow" alt="" />
+            </div>
+            <p class="premium">GO PREMIUM</p>
+            <img src="assets/Hamburger_icon.svg.png" class="hamburger" alt="" />
+          </div>
+        </div>
+        <div class="mid-header">
+          <div class="weather" id="hover-blue">
+            <img src="assets/sun.png" class="sun" alt="" />
+            <p>64° <b>Eagle River, AK</b></p>
+          </div>
+        </div>
+        <div class="bottom-header">
+          <p id="hover-underline">Today</p>
+          <p id="hover-underline">Hourly</p>
+          <p id="hover-underline">10 Day</p>
+          <p id="hover-underline">Weekend</p>
+          <p id="hover-underline">Monthly</p>
+          <p id="hover-underline">Radar</p>
+          <img src="assets/play.png" class="play" alt="" />
+          <p id="hover-underline">Video</p>
+          <p id="hover">More Forecasts</p>
+          <img src="assets/down-arrow.png" class="arrow-forecast" alt="" />
+        </div>
+      </div>
+      <div class="top-ad" id="hover-blue">
+        <img src="assets/ad-long.png" alt="" />
+      </div>
+      <div class="body">
+        <div class="body-left">
+          <div class="top-stories">
+            <div class="story-left">
+              <h2>Top Stories</h2>
+              <div class="story-1">
+                <img src="assets/mainCard.png" alt="" class="mainCard" />
+                <h1>Everything We're Watching in the Atlantic Right Now</h1>
+              </div>
+              <div class="more-links">
+                <div class="play-1">
+                  <img src="assets/play-small.png" alt="" class="play-icon" />
+                  <p>
+                    Watch: Ceiling Is About to Come Crashing Down
+                  </p>
+                </div>
+                <div class="play-2">
+                  <img src="assets/play-small.png" alt="" class="play-icon" />
+                  <p>Ozone Hole Now Larger Than Antarctica Itself</p>
+                </div>
+                <div class="play-3">
+                  <img src="assets/play-small.png" alt="" class="play-icon" />
+                  <p>
+                    Explosive Discovery About Mars' Climate
+                  </p>
+                </div>
+                <div class="play-4">
+                  <img src="assets/play-small.png" alt="" class="play-icon" />
+                  <p>Cool, Wet Weekend Ahead for Northwest</p>
+                </div>
+              </div>
+              <button class="blue-button" id="button">More Stories</button>
+            </div>
+            <div class="story-right">
+              <div class="story-2" id="hover-blue">
+                <img src="assets/card1.png" alt="" class="card" />
+                <p>New: Our Fall Temperature Outlook</p>
+              </div>
+              <div class="story-3" id="hover-blue">
+                <img src="assets/card2.png" alt="" class="card" />
+                <p>Water Spills Over I-95 Barrier in Virginia</p>
+              </div>
+              <div class="story-4" id="hover-blue">
+                <img src="assets/card3.png" alt="" class="card" />
+                <p>Unstable Cliffs in Southern California Stop Train Service</p>
+              </div>
+            </div>
+          </div>
+          <div class="latest">
+            <h2>Latest News</h2>
+            <div class="cards">
+              <div class="card4" id="hover-blue">
+                <img src="assets/card4.png" alt="" class="news-card" />
+                <p>Spotted: A Toxic Bloom Bigger Than Australia</p>
+              </div>
+              <div class="card5" id="hover-blue">
+                <img src="assets/card5.png" alt="" class="news-card" />
+                <p>Deadly China Earthquake Destroys Dozens of Homes</p>
+              </div>
+              <div class="card6" id="hover-blue">
+                <img src="assets/card6.png" alt="" class="news-card" />
+                <p>Hurricane Ida Sends Car Prices Soaring</p>
+              </div>
+              <div class="card7" id="hover-blue">
+                <img src="assets/card7.png" alt="" class="news-card" />
+                <p>Drone Video Shows Damage Left By Nicholas</p>
+              </div>
+            </div>
+            <button class="blue-button" id="button">More News</button>
+          </div>
+          <div class="forecast">
+            <h2>Weather Today Across the Country</h2>
+            <img src="assets/map.png" alt="" />
+            <button class="blue-button" id="button">More News</button>
+          </div>
+          <div class="recommended">
+            <h2>Recommended</h2>
+            <div class="cards">
+              <div class="card8" id="hover-blue">
+                <img src="assets/card8.png" alt="" class="news-card" />
+                <p>Mysterious Lights Line Up Over Bay Area</p>
+              </div>
+              <div class="card9" id="hover-blue">
+                <img src="assets/card9.png" alt="" class="news-card" />
+                <p>Look: Major Quake <br />Triggered Bridge Collapses</p>
+              </div>
+              <div class="card10" id="hover-blue">
+                <img src="assets/card10.png" alt="" class="news-card" />
+                <p>CA Brush Fire Prompts Evacuations</p>
+              </div>
+              <div class="card11" id="hover-blue">
+                <img src="assets/card11.png" alt="" class="news-card" />
+                <p>5 Simple Tips for Avoiding a Shark Attack</p>
+              </div>
+            </div>
+            <button class="blue-button" id="button">More News</button>
+          </div>
+          <div class="double-ad">
+            <div class="ad1">
+              <img src="assets/ad-chevy.png" id="hover-blue" alt="" />
+            </div>
+            <div class="ad2">
+              <img src="assets/statefarm.png" id="hover-blue" alt="" />
+            </div>
+          </div>
+          <div class="photos">
+            <h2>Photos</h2>
+            <div class="cards">
+              <div class="card8" id="hover-blue">
+                <img
+                  src="/assets/card12.png"
+                  alt=""
+                  class="news-card"
+                />
+                <p>
+                  Tropical Storm Nicholas in Photos
+                </p>
+              </div>
+              <div class="card9" id="hover-blue">
+                <img
+                  src="/assets/card13.png"
+                  alt=""
+                  class="news-card"
+                />
+                <p>Mexico's 7.0 Earthquake in Photos</p>
+              </div>
+              <div class="card10" id="hover-blue">
+                <img
+                  src="/assets/card14.png"
+                  alt=""
+                  class="news-card"
+                />
+                <p>Remnants of Ida Bring Devastating Flooding, Severe Weather to Mid-...</p>
+              </div>
+              <div class="card11" id="hover-blue">
+                <img
+                  src="/assets/card15.png"
+                  alt=""
+                  class="news-card"
+                />
+                <p>Photos of Hurricane Ida's Category 4 Landfall (PHOTOS)</p>
+              </div>
+            </div>
+            <button class="blue-button" id="button">See More</button>
+          </div>
+        </div>
+        <div class="body-right">
+          <div class="side-1" id="hover-blue">
+            <img src="assets/tall-ad.png" alt="" />
+          </div>
+          <div class="side-2">
+            <h2>County</h2>
+            <div class="ad-card" id="hover-blue">
+              <img src="assets/covid.png" alt="" />
+              <p>Check Our Interactive Map and Informational Hub</p>
+            </div>
+
+            <button class="blue-button" id="button">See More</button>
+          </div>
+          <div class="side-3" id="hover-blue">
+            <img
+              src="https://s.w-x.co/TWC_Web_Subs_Homefeed_Ad-Free-V1%20%281%29.gif"
+              alt=""
+            />
+          </div>
+          <div class="side-4" id="hover-blue">
+            <img src="assets/ad-chevy.png" alt="" />
+          </div>
+          <div class="side-5">
+            <h2>Freatured Deal</h2>
+            <div class="ad-card" id="hover-blue">
+              <img
+                src="https://s.w-x.co/evachill_0.jpg?crop=16:9&width=980&format=pjpg&auto=webp&quality=60"
+                alt=""
+              />
+              <p>
+                The Heat Is Coming! Stay Cool With This Portable A/C Unit That
+                Can Drop Temps 59 Degrees.
+              </p>
+            </div>
+
+            <button class="blue-button" id="button">See More</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+          <div class="top-footer">
+              <div class="footer-left">
+                <h2>Connect With Us</h2>
+                <img src="assets/socials.png" id="hover-blue" alt="">
+              </div>
+              <div class="footer-right">
+                  <img src="assets/companies.png" alt="">
+
+              </div>
+          </div>
+          <div class="lower-footer">
+              <div class="feedback">
+                <p id="hover-blue">Feedback</p>
+                <p id="hover-blue">Careers</p>
+                <p id="hover-blue">Press Room</p>
+                <p id="hover-blue">Advertise With Us</p>
+                <p id="hover-blue">TV</p>
+              </div>
+              <div class="terms">
+                <p id="hover-blue">Terms of Use |</p>
+                <p id="hover-blue">Privacy Policy |</p>
+                <p id="hover-blue">Ad Choices |</p>
+                <p id="hover-blue">Data Vendors</p>
+              </div>
+              <div class="georgia">
+                <img src="assets/peach.png" id="hover-blue" alt="">
+                <img src="assets/handicap.png" id="hover-blue" alt="">
+              </div>
+              <div class="responsible">
+                <p>We recognize our responsibility to use data and technology for good. Take control of your data.
+                </p>
+              </div>
+              <div class="privacy">
+                <p id="hover-blue">Privacy Settings |</p>
+                <p id="hover-blue">Review My Advertising Settings |</p>
+                <p id="hover-blue">Data Rights</p>
+              </div>
+              <div class="copywright">
+                <p>© Copyright TWC Product and Technology LLC 2014, 2021
+                </p>
+              </div>
+              <div class="ibm">
+                <img src="assets/cloud.png" id="hover-blue" alt="">
+              </div>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
